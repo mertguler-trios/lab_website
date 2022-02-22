@@ -15,7 +15,7 @@ a {
 .top-bar {
     /* display: inline-flex; */
     width: 100%;
-    height: 128px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
 }
@@ -24,6 +24,10 @@ a {
     height: 100vh;
 }
 
+img {
+    max-width:100%;
+    height:auto;
+}
 
 /*************************** LOGO AND TITLE ************************/
 
@@ -39,8 +43,9 @@ a {
 }
 
 .header a {
-    font-size: 72px;
+    font-size: 48px;
     font-family: Marvel;
+    margin-left: 20px;
     color: #EEEEEE;
 }
 
@@ -50,14 +55,13 @@ a {
 
 .header img {
     margin: 0 auto;
-    width: 75px;
-    height: 72px;
+    width: 60px;
 }
 
 /*************************** NAVIGATION ***************************/
 
 .menu {
-    height: 128px;
+    height: 80px;
     float: right;
     margin-right: 107px;
     display: flex;
@@ -65,25 +69,24 @@ a {
 
 .nav-button {
     background-color: #00ADB5;
-    padding: 32px 25px;
+    padding: 25px 25px;
     text-align: center;
     font-family: Mulish;
     color: #EEEEEE;
-    font-size: 36px;
+    font-size: 18px;
 }
 
 .nav-button:hover {
     background-color: white;
-    padding: 32px 25px;
-    text-align: center;
     color: #222831;
 }
 
 /*************************** MAIN ***************************/
 
-/* .main {
-    display: flex;
-} */
+.main {
+    height: calc(100vh - 130px);
+    width: 100%;
+}
 
 .main h1 {
     font-family: Marvel;
@@ -100,8 +103,9 @@ a {
 }
 
 .main img {
-    margin: auto;
+    display: flex;
 }
+
 
 /*************************** NEXT - PREVIOUS BUTTONS ***************************/
 
@@ -125,6 +129,7 @@ a {
     margin-right: 80px;
     display: flex;
     align-items: center;
+    min-height: calc(100vh - 130px);
 }
 
 .previous-page-button {
@@ -132,6 +137,7 @@ a {
     margin-left: 80px;
     display: flex;
     align-items: center;
+    min-height: calc(100vh - 130px);
 }
 
 
