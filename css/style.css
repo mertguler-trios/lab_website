@@ -83,33 +83,12 @@ img {
 
 /*************************** MAIN ***************************/
 
-.main {
-    height: calc(100vh - 130px);
-    width: 100%;
-}
-
-.main h1 {
-    font-family: Marvel;
-    font-size: 50px;
-    text-align: right;
-    color: #EEEEEE;
-}
-
-.main h2 {
-    font-family: Marvel;
-    font-size: 28px;
-    text-align: right;
-    color: #EEEEEE;
-}
-
 .content {
     min-height: calc(100vh - 130px);
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-
 
 /*************************** NEXT - PREVIOUS BUTTONS ***************************/
 
@@ -130,7 +109,7 @@ img {
 
 .next-page-button {
     float: right;
-    margin-right: 30px;
+    margin: 0 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -140,7 +119,7 @@ img {
 
 .previous-page-button {
     float: left;
-    margin-left: 30px;
+    margin: 0 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -186,3 +165,48 @@ img {
     display: flex;
     align-items: center;
 }
+
+
+/************************ HOME PAGE STYLES ********************/
+
+
+.main {
+    height: calc(100vh - 130px);
+    width: 100%;
+}
+
+.main h1 {
+    font-family: Marvel;
+    font-size: 70px;
+    text-align: right;
+    color: #EEEEEE;
+    margin: 0;
+}
+
+.main h2 {
+    font-family: Marvel;
+    font-size: 28px;
+    text-align: right;
+    color: #EEEEEE;
+    margin: 0;
+}
+
+.home-page-image {
+    width: 70%;
+}
+
+.motto {
+    width: 30%;
+    margin-right: 250px;
+}
+
+
+/************************ RENT PAGE STYLES ********************/
+
+
+
+/************************ ABOUT US PAGE STYLES ********************/
+
+
+
+/************************ CONTACT PAGE STYLES ********************/
