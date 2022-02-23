@@ -339,6 +339,10 @@ img {
     border-radius: 50%;
 }
 
+.social-media-icons:hover {
+    background-color: #00adb5;
+}
+
 #youtube-video {
     margin: auto 50px;
 }
