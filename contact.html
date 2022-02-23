@@ -28,7 +28,7 @@
 
         <div class="main">
             <div class="previous-page-button">
-                <a href="about.html" class="page-arrows"><em class='fas fa-arrow-left'></em></a>
+                <a href="about.html" class="page-arrows" title="previous-page"><em class='fas fa-arrow-left'></em></a>
                 <p class="page-button-name">About Us</p>
             </div>
 
@@ -37,12 +37,12 @@
                     <form action="mailto:mert.guler@triosstudent.com?cc=berkay.colak@triosstudent.com&subject=" method="POST" enctype="text/plain">
                         <p>
                             <label for="name">Name:</label>
-                            <input type="text" name="name" placeholder="Enter your name" required>
+                            <input id="name" type="text" name="name" placeholder="Enter your name" required>
                         </p>
 
                         <p>
                             <label for="email">E-mail:</label>
-                            <input type="email" name="email" placeholder="Enter 'your' e-mail address" required>
+                            <input id="email" type="email" name="email" placeholder="Enter 'your' e-mail address" required>
                         </p>
 
                         <p>
@@ -58,7 +58,7 @@
                 </div>
 
                 <iframe id="youtube-video" width="640" height="360" src="https://www.youtube.com/embed/dcsXdT5oahg"
-                    title="YouTube video player" frameborder="0"
+                    title="YouTube video player" style="border: none;"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
 
