@@ -1,32 +1,32 @@
-@import url('https://fonts.googleapis.com/css?family=Marvel&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Mulish&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Marvel&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Mulish&display=swap");
 
 /************************** GENERAL *****************************/
 
 body {
-    background-color: #222831;
-    margin: 0;
+  background-color: #222831;
+  margin: 0;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .top-bar {
-    /* display: inline-flex; */
-    width: 100%;
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
+  /* display: inline-flex; */
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .container {
-    height: 100vh;
+  height: 100vh;
 }
 
 img {
-    max-width:100%;
-    height:auto;
+  max-width: 100%;
+  height: auto;
 }
 
 /*************************** LOGO AND TITLE ************************/
@@ -37,176 +37,308 @@ img {
 } */
 
 .header {
-    margin-left: 120px;
-    display: flex;
-    align-items: center;
+  margin-left: 120px;
+  display: flex;
+  align-items: center;
 }
 
 .header a {
-    font-size: 48px;
-    font-family: Marvel;
-    margin-left: 20px;
-    color: #EEEEEE;
+  font-size: 48px;
+  font-family: Marvel;
+  margin-left: 20px;
+  color: #eeeeee;
 }
 
 .header a:visited {
-    color: #EEEEEE;
+  color: #eeeeee;
 }
 
 .header img {
-    margin: 0 auto;
-    width: 60px;
+  margin: 0 auto;
+  width: 60px;
 }
 
 /*************************** NAVIGATION ***************************/
 
 .menu {
-    height: 80px;
-    float: right;
-    margin-right: 100px;
-    display: flex;
+  height: 80px;
+  float: right;
+  margin-right: 100px;
+  display: flex;
 }
 
 .nav-button {
-    background-color: #00ADB5;
-    padding: 25px 25px;
-    text-align: center;
-    font-family: Mulish;
-    color: #EEEEEE;
-    font-size: 18px;
+  background-color: #00adb5;
+  padding: 25px 25px;
+  text-align: center;
+  font-family: Mulish;
+  color: #eeeeee;
+  font-size: 18px;
 }
 
 .nav-button:hover {
-    background-color: white;
-    color: #222831;
+  background-color: white;
+  color: #222831;
 }
 
 /*************************** MAIN ***************************/
 
 .content {
-    min-height: calc(100vh - 130px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  min-height: calc(100vh - 130px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*************************** NEXT - PREVIOUS BUTTONS ***************************/
 
 .page-arrows {
-    border-radius: 50%;
-    background-color: #393E46;
-    font-size: 60px;
-    padding: 30px;
-    text-decoration: none;
-    color: #EEEEEE;
+  border-radius: 50%;
+  background-color: #393e46;
+  font-size: 60px;
+  padding: 30px;
+  text-decoration: none;
+  color: #eeeeee;
 }
 
-
 .page-arrows:hover {
-    background-color: #EEEEEE;
-    color: #222831;
+  background-color: #eeeeee;
+  color: #222831;
 }
 
 .next-page-button {
-    float: right;
-    margin: 0 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: calc(100vh - 130px);
+  float: right;
+  margin: 0 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 130px);
+  width: 112.5px;
 }
 
 .previous-page-button {
-    float: left;
-    margin: 0 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: calc(100vh - 130px);
+  float: left;
+  margin: 0 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 130px);
+  width: 112.5px;
 }
 
 .page-button-name {
-    font-size: 30px;
-    font-family: Marvel;
-    color: #EEEEEE;
-    margin: 5px 0;
+  font-size: 30px;
+  font-family: Marvel;
+  color: #eeeeee;
+  margin: 5px 0;
 }
-
 
 /*************************** FOOTER ***************************/
 
 .footer {
-    background-color: #C4C4C4;
-    position: absolute;
-    height: 50px;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: Mulish;
-    font-size: 12px;
+  background-color: #c4c4c4;
+  position: absolute;
+  height: 50px;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Mulish;
+  font-size: 12px;
 }
 
 .footer .copyright-message img {
-    height: 40px;
-    margin-left: 50px;
-    margin-right: 20px;
+  height: 40px;
+  margin-left: 50px;
+  margin-right: 20px;
 }
 
 .footer-credit {
-    margin-right: 50px;
+  margin-right: 50px;
 }
 
 .copyright-message {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
-
 
 /************************ HOME PAGE STYLES ********************/
 
-
 .main {
-    height: calc(100vh - 130px);
-    width: 100%;
+  height: calc(100vh - 130px);
+  width: 100%;
 }
 
 .main h1 {
-    font-family: Marvel;
-    font-size: 70px;
-    text-align: right;
-    color: #EEEEEE;
-    margin: 0;
+  font-family: Marvel;
+  font-size: 70px;
+  text-align: right;
+  color: #eeeeee;
+  margin: 0;
 }
 
 .main h2 {
-    font-family: Marvel;
-    font-size: 28px;
-    text-align: right;
-    color: #EEEEEE;
-    margin: 0;
+  font-family: Marvel;
+  font-size: 28px;
+  text-align: right;
+  color: #eeeeee;
+  margin: 0;
 }
 
 .home-page-image {
-    width: 70%;
+  width: 70%;
 }
 
 .motto {
-    width: 30%;
-    margin-right: 250px;
+  width: 30%;
+  margin-right: 250px;
 }
 
-
 /************************ RENT PAGE STYLES ********************/
+
+.car-listing {
+    border: 1px solid black;
+    width: 450px;
+    height: 650px;
+    margin: 0 auto;
+    border-radius: 40px 120px;
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    font-family: Mulish;
+    font-size: 24px;
+}
+
+.car-listing img {
+    width: 340px;
+    height: 340px;
+    border: 3px solid #222831;
+    padding: 0;
+    margin: 65px auto 40px auto;
+    border-radius: 50px;
+}
+
+.car-listing p {
+    margin: 5px;
+}
+
+.car-listing a {
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #00adb5;
+    color: #eeeeee;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.car-listing a:hover {
+    background-color: #222831;
+    color: #eeeeee;
+    /* content: "Call!"; */
+}
+
+.car-listing a:hover span {
+    display: none;
+}
+
+.car-listing a:hover:before {
+    content: "Call";
+}
 
 
 
 /************************ ABOUT US PAGE STYLES ********************/
 
+#about-page {
+  font-family: Marvel;
+  color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+#about-page h3 {
+  font-size: 32px;
+}
+
+#about-page p {
+  font-size: 20px;
+}
+
+#about-page img {
+  width: 350px;
+}
 
 /************************ CONTACT PAGE STYLES ********************/
+
+#contact-page {
+    justify-content: space-between;
+}
+
+#contact-page #form {
+  width: 500px;
+  padding: 25px;
+  margin-left: 10px;
+}
+
+#contact-page #form input {
+  width: 100%;
+  height: 50px;
+  background-color: #eeeeee;
+  margin-top: 10px;
+}
+
+#contact-page #form label {
+  width: 100%;
+  color: #eeeeee;
+  font-family: Mulish;
+  font-size: 24px;
+}
+
+#contact-page #form #message {
+  width: 100%;
+  border-radius: 5px;
+  background-color: #eeeeee;
+  margin-top: 10px;
+}
+
+#contact-page #form #submit {
+  height: 50px;
+  background-color: #00adb5;
+  font-family: Mulish;
+  font-size: 24px;
+  color: #eeeeee;
+}
+
+#contact-page #form #submit:hover {
+  background-color: #eeeeee;
+  color: #222831;
+}
+
+.social-media {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.social-media-icons {
+    width: 80px;
+    margin: 10px auto;
+    background-color: #eeeeee;
+    border-radius: 50%;
+}
+
+#youtube-video {
+    margin: auto 50px;
+}
